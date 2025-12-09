@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import FerrariScene from "./components/FerrariScene";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 
 export default function HomePage() {
   return (
@@ -63,13 +62,11 @@ export default function HomePage() {
           </motion.div>
         </section>
 
-        {/* Colonne 3D */}
         <section className="w-full lg:w-7/12 h-[55vh] lg:h-auto">
           <FerrariScene />
         </section>
       </main>
 
-      <Footer />
     </div>
   );
 }

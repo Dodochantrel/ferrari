@@ -3,12 +3,11 @@ export default function Navbar() {
     <header className="w-full z-20">
       <nav className="flex items-center justify-between px-6 lg:px-16 py-4">
         <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-full bg-[var(--ferrari-red)] flex items-center justify-center text-xs font-bold tracking-[0.25em] uppercase">
-            SF
-          </div>
-          <div className="text-sm uppercase tracking-[0.25em] text-zinc-400">
-            Scuderia Ferrari
-          </div>
+          <img
+            src="/images/ferrari-logo.png"
+            alt="Logo Ferrari"
+            className="h-15 w-15 object-contain select-none"
+          />
         </div>
 
         <div className="hidden md:flex gap-8 text-xs uppercase tracking-[0.2em] text-zinc-500">
